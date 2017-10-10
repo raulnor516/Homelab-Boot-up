@@ -1,5 +1,5 @@
 ipmitool (raspian uses version 1.8.18-3)
-https://github.com/sdague/amt python code
+https://github.com/sdague/amt
 python - any version
 make
 git
