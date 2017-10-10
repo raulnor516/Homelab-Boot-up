@@ -33,4 +33,18 @@ shift $(($OPTIND -1))
 if [ "${uflag}${pflag}" ]
     then printf "Passing username '$username' and password '$password' to ipmitool and amt. \n"
 fi
+
+#if [[ ! -f ipmi_targs.txt ]]; then 
+#	echo  
+
+#for ipmi_host in `cat ipmi_targs.txt`; 
+#	do ipmitool -u $username -p $password -H $ipmi_host
+#done
+
+
+#for amt_host in `cat amt_targs.txt`; 
+#	do python amt/bin/amt.py -u $username -p $password -H $amt_host
+#done
+
+
 exit 0
