@@ -6,11 +6,13 @@ CURRENT STATUS:
  - Credential collection working
  - IPMItool support working
  - AMT support in progress
+ - Error handling half-broken
 
 TODO:
  - Complete AMT functionality
  - Reword script to follow functional programming tenents
  - Look at feasability of providing "nice" shutdown functionality
+ - Figure out why getopts ? and : options aren't working properly
  
 ASSUMPTIONS:
  - IPMI is already set up for LAN access
