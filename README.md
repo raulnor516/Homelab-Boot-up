@@ -12,6 +12,11 @@ TODO:
  - Reword script to follow functional programming tenents
  - Look at feasability of providing "nice" shutdown functionality
  
+ASSUMPTIONS:
+ - IPMI is already set up for LAN access
+ - All servers use the same username and password for authentication
+ - Either IP addresses or hostnames are routable from your launch point
+ 
 SETUP:
  - Install ipmitool
  - wget https://raw.githubusercontent.com/raulnor516/master/siege_launch.bat
