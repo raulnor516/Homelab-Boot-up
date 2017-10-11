@@ -21,7 +21,7 @@ ASSUMPTIONS:
  
 SETUP:
  - Install ipmitool
- - wget https://raw.githubusercontent.com/raulnor516/master/siege_launch.sh
+ - wget https://raw.githubusercontent.com/raulnor516/Homelab-Boot-up/master/siege_launch.sh
  - make a file called "ipmi_targs.txt" in the same directory as siege_launch.sh
  - Add one IP address or hostname per line for each IPMI-enabled server you want to start
  - call siege_launch.sh -u [username] -p [password]
