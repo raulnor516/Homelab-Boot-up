@@ -14,7 +14,7 @@ TODO:
  - Figure out why getopts ? and : options aren't working properly
  
 ASSUMPTIONS:
- - IPMI and AMT are already set up for LAN access
+ - IPMI and AMT are already set up for LAN access (AMT username has to be "admin")
  - All servers use the same username and password for authentication
  - Either IP addresses or hostnames are routable from your launch point
  
