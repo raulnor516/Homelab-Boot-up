@@ -28,7 +28,8 @@ IPMI
  
  AMT
  - git clone https://github.com/sdague/amt
- - install or update pip (https://pip.pypa.io/en/stable/installing/)
+ - install python pip if not already installed https://pip.pypa.io/en/stable/installing/
+ - run "pip install -U pip setuptools"
  - pip install amt
  - For each server using amt, run the following command:
      "amtctrl add 'servername' 'ipaddress' 'password'"
