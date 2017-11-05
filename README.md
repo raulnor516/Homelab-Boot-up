@@ -5,7 +5,7 @@ Goal is having a single program or script that can be run, that will boot up all
 CURRENT STATUS:
  - Credential collection working
  - IPMItool support working
- - AMT support completed
+ - AMT support working
  - Error handling mostly broken
 
 TODO:
