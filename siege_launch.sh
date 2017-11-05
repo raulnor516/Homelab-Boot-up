@@ -46,9 +46,12 @@ done
 
 printf "All IPMI-based hosts are started, moving to AMT. \n"
 
-#for amt_host in `cat amt_targs.txt`; 
-#	do python amt/bin/amt.py -u $username -p $password -H $amt_host
-#done
+for amt_host in `cat amt_targs.txt`; 
+	do 
+	amtctrl $amt_host on
+	sleep 1.5s
+done
 
+printf "All AMT-based hosts are started. \n"
 
 exit 0
