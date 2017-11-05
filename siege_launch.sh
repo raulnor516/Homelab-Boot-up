@@ -39,7 +39,7 @@ fi
 
 for ipmi_host in `cat ipmi_targs.txt`; 
 	do 
-        ipmitool -U $username -P $password -H $ipmi_host
+        ipmitool -U $username -P $password -H $ipmi_host chassis power on
         printf "$ipmi_host powered on! \n"
         sleep 1.5s
 done
