@@ -9,7 +9,7 @@ CURRENT STATUS:
  - Error handling mostly broken
 
 TODO:
- - Reword script to follow functional programming tenents
+ - Rewrite script to follow functional programming tenents
  - Look at feasability of providing "nice" shutdown functionality
  - Figure out why getopts ? and : options aren't working properly
  
